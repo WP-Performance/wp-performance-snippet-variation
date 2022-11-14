@@ -8,6 +8,7 @@ Exemple on this page end => [https://wp-performance.com/snippet/desactiver-php-d
 ## Method
 
 1 - Create variation block with javascript file => ```assets/block-variations.js```
+
 2 - Change query arguments with filter hook for this variation namespace => ```index.php```
 
 
