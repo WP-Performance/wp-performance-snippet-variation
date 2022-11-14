@@ -1,6 +1,9 @@
 const VARIATION_NAME = 'wp-performance/related-snippets'
 
 const addSnippetVariation = function () {
+  if (!wp) {
+    return
+  }
   // use window wp global function
   const { Icon } = wp.components
   const { createElement } = wp.element
