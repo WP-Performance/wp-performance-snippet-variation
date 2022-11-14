@@ -22,7 +22,7 @@ function editor_assets()
 {
     wp_enqueue_script(
         'wp-performance-snippet-variation',
-        plugin_dir_url(__FILE__) . '/assets/admin/block-variations.js',
+        plugin_dir_url(__FILE__) . 'assets/admin/block-variations.js',
         array('wp-blocks')
     );
 }
