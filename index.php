@@ -71,6 +71,7 @@ add_filter(
                         }
                     }
                     if ($tax_query) {
+                        // add condition relation
                         $tax_query['relation'] = 'OR';
                         $query['tax_query'] = $tax_query;
                     }
